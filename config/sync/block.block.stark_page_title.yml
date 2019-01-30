@@ -1,14 +1,14 @@
-uuid: 41191a4a-86e4-40b1-ae0e-bc10d96a642a
+uuid: 09e7d62d-9fac-4401-a087-4517cf065cb3
 langcode: en
 status: true
 dependencies:
   theme:
-    - seven
+    - stark
 _core:
-  default_config_hash: ZSpc3IoSaLd0PkB02nxjVPBMztIdsTdHek9SiGaqZ_c
-id: seven_page_title
-theme: seven
-region: header
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+id: stark_page_title
+theme: stark
+region: content
 weight: -30
 provider: null
 plugin: page_title_block
