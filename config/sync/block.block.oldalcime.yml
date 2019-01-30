@@ -1,0 +1,18 @@
+uuid: ff5f5b8a-ddb4-4409-b2f9-f35353aece85
+langcode: hu
+status: true
+dependencies:
+  theme:
+    - bartik
+id: oldalcime
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Oldal címe'
+  provider: core
+  label_display: '0'
+visibility: {  }

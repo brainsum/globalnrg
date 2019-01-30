@@ -1,0 +1,9 @@
+uuid: 8b2f2570-6bd1-45ae-a62b-c226425526c8
+langcode: ro
+status: true
+dependencies: {  }
+id: ro
+label: Română
+direction: ltr
+weight: 2
+locked: false
