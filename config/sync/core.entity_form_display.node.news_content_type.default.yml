@@ -1,18 +1,18 @@
-uuid: b560bd08-2cf1-4794-b170-bd598853e2ac
+uuid: 0e1feba7-bceb-4a55-b02c-7d3d1059682e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
-    - field.field.node.page.field_file
-    - node.type.page
+    - field.field.node.news_content_type.body
+    - field.field.node.news_content_type.field_file
+    - node.type.news_content_type
   module:
     - file
     - path
     - text
-id: node.page.default
+id: node.news_content_type.default
 targetEntityType: node
-bundle: page
+bundle: news_content_type
 mode: default
 content:
   body:
@@ -31,7 +31,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_file:
-    weight: 11
+    weight: 10
     settings:
       progress_indicator: bar
     third_party_settings: {  }
@@ -78,11 +78,6 @@ content:
     settings:
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  translation:
-    weight: 10
-    region: content
-    settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete

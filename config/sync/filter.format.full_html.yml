@@ -45,7 +45,7 @@ filters:
     status: true
     weight: 2
     settings:
-      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <p> <u> <s> <sup> <sub> <img src alt data-entity-type data-entity-uuid data-align data-caption> <hr> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <span lang dir>'
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <p style> <u> <s> <sup> <sub> <img src alt data-entity-type data-entity-uuid data-align data-caption> <hr> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <span lang dir>'
       filter_html_help: true
       filter_html_nofollow: true
   filter_htmlcorrector:

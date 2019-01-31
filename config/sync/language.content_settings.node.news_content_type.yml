@@ -1,0 +1,11 @@
+uuid: f64a7d80-806c-440e-b867-4977958515a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news_content_type
+id: node.news_content_type
+target_entity_type_id: node
+target_bundle: news_content_type
+default_langcode: und
+language_alterable: false

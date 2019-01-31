@@ -1,0 +1,8 @@
+uuid: 98ae1c63-382e-49d3-abe5-cb34630ce69c
+langcode: hu
+status: true
+dependencies: {  }
+id: custom_block_type
+label: 'Egyéni blokktípus'
+revision: 1
+description: 'A Brainsum egyéni blokktípusa.'

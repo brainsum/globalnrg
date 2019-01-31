@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Page
 type: page
-description: 'This is a simple type for static, not-frequently changing content.'
+description: 'Use basic pages for your static content, such as an "About us" page.'
 help: 'Type here the body of the desired content.'
 new_revision: true
 preview_mode: 1
