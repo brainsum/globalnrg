@@ -1,0 +1,24 @@
+uuid: 1233316a-cf95-4bd5-a8e4-e8443b307412
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - mayo
+id: mayo_fonavigacio
+theme: mayo
+region: sidebar_first
+weight: 2
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Fő navigáció'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

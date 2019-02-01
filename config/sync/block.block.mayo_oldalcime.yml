@@ -1,0 +1,18 @@
+uuid: fdfb528d-d1ee-4b28-96e6-251dc81235e8
+langcode: hu
+status: true
+dependencies:
+  theme:
+    - mayo
+id: mayo_oldalcime
+theme: mayo
+region: breadcrumb
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Oldal címe'
+  provider: core
+  label_display: '0'
+visibility: {  }

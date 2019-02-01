@@ -5,9 +5,12 @@ dependencies:
   config:
     - field.field.node.page.body
     - field.field.node.page.field_file
+    - field.field.node.page.field_image
+    - image.style.thumbnail
     - node.type.page
   module:
     - file
+    - image
     - path
     - text
 id: node.page.default
@@ -36,6 +39,14 @@ content:
       progress_indicator: bar
     third_party_settings: {  }
     type: file_generic
+    region: content
+  field_image:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   langcode:
     type: language_select

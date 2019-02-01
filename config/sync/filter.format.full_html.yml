@@ -12,25 +12,25 @@ filters:
     id: editor_file_reference
     provider: editor
     status: true
-    weight: 5
+    weight: 4
     settings: {  }
   filter_caption:
     id: filter_caption
     provider: filter
     status: true
-    weight: 7
+    weight: 6
     settings: {  }
   filter_autop:
     id: filter_autop
     provider: filter
     status: true
-    weight: 3
+    weight: 2
     settings: {  }
   filter_url:
     id: filter_url
     provider: filter
     status: true
-    weight: 4
+    weight: 3
     settings:
       filter_url_length: 72
   filter_html_escape:
@@ -42,10 +42,10 @@ filters:
   filter_html:
     id: filter_html
     provider: filter
-    status: true
+    status: false
     weight: 2
     settings:
-      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <p style> <u> <s> <sup> <sub> <img src alt data-entity-type data-entity-uuid data-align data-caption> <hr> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <span lang dir>'
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <p style> <u> <s> <sup> <sub> <img src alt data-entity-type data-entity-uuid data-align data-caption> <hr> <table> <caption> <tbody> <thead> <tfoot> <th colspan rowspan> <td colspan rowspan> <tr> <span lang dir>'
       filter_html_help: true
       filter_html_nofollow: true
   filter_htmlcorrector:
@@ -57,12 +57,12 @@ filters:
   filter_html_image_secure:
     id: filter_html_image_secure
     provider: filter
-    status: true
+    status: false
     weight: 8
     settings: {  }
   filter_align:
     id: filter_align
     provider: filter
     status: true
-    weight: 6
+    weight: 5
     settings: {  }

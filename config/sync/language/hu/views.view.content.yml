@@ -23,8 +23,6 @@ display:
         type:
           label: Tartalomtípus
           separator: ', '
-        name:
-          label: Szerző
         status:
           label: Állapot
           settings:

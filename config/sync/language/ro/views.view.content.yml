@@ -23,8 +23,6 @@ display:
         type:
           label: 'Tip conţinut'
           separator: ', '
-        name:
-          label: Autor
         status:
           label: Stare
           settings:

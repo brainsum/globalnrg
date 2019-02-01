@@ -1,0 +1,24 @@
+container_id: GTM-M434RBQ
+path_toggle: 'exclude listed'
+path_list: ''
+role_toggle: 'exclude listed'
+role_list:
+  anonymous: '0'
+  authenticated: '0'
+  administrator: '0'
+status_toggle: 'exclude listed'
+status_list: ''
+compact_snippet: true
+include_file: true
+rebuild_snippets: true
+debug_output: false
+data_layer: dataLayer
+include_classes: false
+whitelist_classes: "google\nnonGooglePixels\nnonGoogleScripts\nnonGoogleIframes"
+blacklist_classes: "customScripts\ncustomPixels"
+include_environment: false
+environment_id: ''
+environment_token: ''
+_core:
+  default_config_hash: UyNPbddlLO3s8kwBAYs5ubS74V4uBRmWxfrE9yEGeGM
+langcode: hu
