@@ -25,9 +25,9 @@ palette:
   footertext: '#eaeaea'
   footerlink: '#c6def6'
   titleslogan: '#ffffff'
-logo: 'public://color/mayo-fa188b8f/logo.svg'
+logo: 'public://color/mayo-ccfa9280/logo.svg'
 stylesheets:
-  - 'public://color/mayo-fa188b8f/colors.css'
+  - 'public://color/mayo-ccfa9280/colors.css'
 files:
-  - 'public://color/mayo-fa188b8f/logo.svg'
-  - 'public://color/mayo-fa188b8f/colors.css'
+  - 'public://color/mayo-ccfa9280/logo.svg'
+  - 'public://color/mayo-ccfa9280/colors.css'

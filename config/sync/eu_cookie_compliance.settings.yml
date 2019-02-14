@@ -17,12 +17,12 @@ popup_clicking_confirmation: false
 popup_scrolling_confirmation: false
 popup_delay: 100
 show_disagree_button: true
-popup_disagree_button_message: 'További információk'
+popup_disagree_button_message: 'More info'
 popup_enabled: true
 popup_find_more_button_message: 'More info'
 popup_height: null
 popup_hide_agreed: false
-popup_hide_button_message: Hide
+popup_hide_button_message: Elrejtés
 popup_info:
   value: "<h2>A felhasználói élmény javítása érdekében a webhelyen sütiket használunk</h2>\r\n\r\n<p>Az oldal bármely hivatkozására való kattintással hozzájárul a sütik létrehozásához.</p>\r\n"
   format: full_html
