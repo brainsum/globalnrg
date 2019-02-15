@@ -26,7 +26,10 @@ private_files
 /.idea/
 
 # Ignore .env files as they are personal
-/.env
+*.env
 
 # Ignore temporary files used during development
 phpinfo-results.html
+
+# Ignore any DB dump files stored in docroot even temporarily
+*.sql
