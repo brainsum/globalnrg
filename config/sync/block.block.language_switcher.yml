@@ -9,7 +9,7 @@ dependencies:
 id: language_switcher
 theme: mayo
 region: sidebar_first
-weight: -2
+weight: 3
 provider: null
 plugin: 'language_block:language_interface'
 settings:

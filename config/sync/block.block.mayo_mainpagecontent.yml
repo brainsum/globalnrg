@@ -9,7 +9,7 @@ dependencies:
 id: mayo_mainpagecontent
 theme: mayo
 region: content
-weight: 2
+weight: 1
 provider: null
 plugin: system_main_block
 settings:

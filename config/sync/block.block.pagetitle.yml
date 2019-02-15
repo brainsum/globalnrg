@@ -7,7 +7,7 @@ dependencies:
 id: pagetitle
 theme: mayo
 region: breadcrumb
-weight: 0
+weight: 1
 provider: null
 plugin: page_title_block
 settings:
