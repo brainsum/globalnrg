@@ -1,10 +1,10 @@
-uuid: fdfb528d-d1ee-4b28-96e6-251dc81235e8
-langcode: hu
+uuid: a183a2d9-ac92-4351-b6b0-69c1f4420a80
+langcode: en
 status: true
 dependencies:
   theme:
     - mayo
-id: mayo_oldalcime
+id: pagetitle
 theme: mayo
 region: breadcrumb
 weight: 0
@@ -12,7 +12,7 @@ provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Oldal címe'
+  label: 'Page title'
   provider: core
   label_display: '0'
 visibility: {  }

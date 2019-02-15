@@ -1,4 +1,4 @@
-uuid: c5d00a1b-f97a-4db7-8225-22cbd951876c
+uuid: 1c0be4ae-5afc-421d-b095-f622ef3919e7
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 id: mayo_secondary_tabs
 theme: mayo
 region: help
-weight: 1
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:

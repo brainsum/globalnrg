@@ -1,20 +1,20 @@
-uuid: 7f767291-bd23-4150-8d3e-2840b545cf9e
-langcode: hu
+uuid: 2080a6d7-1378-4828-9b21-95d0e777e37a
+langcode: en
 status: true
 dependencies:
   module:
     - language
   theme:
     - mayo
-id: mayo_nyelvvalaszto
+id: language_switcher
 theme: mayo
 region: sidebar_first
-weight: 3
+weight: -2
 provider: null
 plugin: 'language_block:language_interface'
 settings:
   id: 'language_block:language_interface'
-  label: Nyelvválasztó
+  label: 'Language switcher'
   provider: language
   label_display: '0'
 visibility: {  }

@@ -1,4 +1,4 @@
-uuid: 9d0c0f10-f233-4aff-b263-5859c0763194
+uuid: e06e4d41-66b5-4733-8f56-5fc843de71e3
 langcode: en
 status: true
 dependencies:
@@ -8,10 +8,10 @@ dependencies:
     - block_content
   theme:
     - mayo
-id: mayo_footer_content
+id: footer_content
 theme: mayo
 region: footer
-weight: 1
+weight: -4
 provider: null
 plugin: 'block_content:c0af8b7a-5479-4f21-b6d3-b36ee504e3b8'
 settings:

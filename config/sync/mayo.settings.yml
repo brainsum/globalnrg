@@ -41,27 +41,27 @@ bigscreen_layout: three_col_grail
 bigscreen_page_unit: '%'
 bigscreen_sidebar_unit: px
 bigscreen_max_width_unit: px
-bigscreen_page_width: '90'
+bigscreen_page_width: '50'
 bigscreen_sidebar_first: '200'
 bigscreen_sidebar_second: '200'
 bigscreen_set_max_width: true
 bigscreen_max_width: 1140
 bigscreen_media_query: 'only screen and (min-width:1025px)'
-tablet_landscape_layout: three_col_grail
+tablet_landscape_layout: two_sidebars_left_stack
 tablet_landscape_page_unit: '%'
 tablet_landscape_sidebar_unit: px
-tablet_landscape_page_width: '90'
+tablet_landscape_page_width: '85'
 tablet_landscape_sidebar_first: '200'
-tablet_landscape_sidebar_second: '200'
+tablet_landscape_sidebar_second: '20'
 tablet_landscape_media_query: 'only screen and (min-width:769px) and (max-width:1024px)'
-tablet_portrait_layout: one_col_vert
+tablet_portrait_layout: one_col_stack
 tablet_portrait_page_unit: '%'
 tablet_portrait_sidebar_unit: '%'
 tablet_portrait_page_width: '90'
 tablet_portrait_sidebar_first: '50'
 tablet_portrait_sidebar_second: '50'
 tablet_portrait_media_query: 'only screen and (min-width:481px) and (max-width:768px)'
-smalltouch_landscape_layout: one_col_vert
+smalltouch_landscape_layout: one_col_stack
 smalltouch_landscape_page_unit: '%'
 smalltouch_landscape_sidebar_unit: '%'
 smalltouch_landscape_page_width: '100'

@@ -1,4 +1,4 @@
-uuid: 5cf77758-6f92-442a-9f20-d90a23378877
+uuid: 3f5d276b-0be6-4341-88ed-bc4f9fa3c820
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: mayo_messages
 theme: mayo
 region: highlighted
-weight: 1
+weight: -3
 provider: null
 plugin: system_messages_block
 settings:

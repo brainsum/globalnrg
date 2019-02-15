@@ -1,4 +1,4 @@
-uuid: 1233316a-cf95-4bd5-a8e4-e8443b307412
+uuid: 6910c958-a913-4d0a-a443-1b765a251673
 langcode: en
 status: true
 dependencies:
@@ -8,15 +8,15 @@ dependencies:
     - system
   theme:
     - mayo
-id: mayo_fonavigacio
+id: main_navigation
 theme: mayo
 region: sidebar_first
-weight: 2
+weight: -4
 provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Fő navigáció'
+  label: 'Main navigation'
   provider: system
   label_display: '0'
   level: 1

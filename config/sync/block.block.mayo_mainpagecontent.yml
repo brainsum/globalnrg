@@ -1,0 +1,20 @@
+uuid: 629084a0-8196-4309-9cbf-f126b06a058b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mayo
+id: mayo_mainpagecontent
+theme: mayo
+region: content
+weight: 2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
