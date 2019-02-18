@@ -1,0 +1,5 @@
+global-css:
+  css:
+    theme:
+      assets/css/flexslider.css: {}
+      assets/css/style.css: {}
