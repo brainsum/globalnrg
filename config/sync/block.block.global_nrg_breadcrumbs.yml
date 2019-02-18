@@ -1,0 +1,22 @@
+uuid: d93a0617-d2c3-4823-ac85-d185af6c00ea
+langcode: hu
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - global_nrg
+_core:
+  default_config_hash: NQr0oD4xpdVUQYKiNIOzCtjpyeCQYCgNi1a4on8lyC0
+id: global_nrg_breadcrumbs
+theme: global_nrg
+region: highlighted
+weight: 50
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

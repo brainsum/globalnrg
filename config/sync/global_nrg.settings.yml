@@ -1,0 +1,23 @@
+features:
+  node_user_picture: false
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 1
+show_breadcrumbs: 1
+slideshow_display: 1
+slide1_head: 'Global NRG, az Ön gázkereskedője'
+slide1_desc: 'Földgáz energetikai, ipari és kommunális gázfogyasztói valamint kereskedő partnereink részére a gáz magyar vagy külföldi mérőpontra történő eladásán kívűl tanácsadási, optimalizálási, nominálási, kockázatkezelési termékekkel és szolgáltatásokkal álllunk rendelkezésre.'
+slide1_url: ''
+slide1_image: {  }
+slide2_head: ''
+slide2_desc: ''
+slide2_url: ''
+slide2_image: {  }
+slide3_head: ''
+slide3_desc: ''
+slide3_url: ''
+slide3_image: {  }

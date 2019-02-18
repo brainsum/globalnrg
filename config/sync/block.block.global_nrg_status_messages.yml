@@ -1,0 +1,22 @@
+uuid: fc13fea5-6873-4e11-8c88-7bbf5e4d528b
+langcode: hu
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - global_nrg
+_core:
+  default_config_hash: CtLvpFsy_cj9upvydBuL1MKWm_nNWR64KDi8AOH8_WY
+id: global_nrg_status_messages
+theme: global_nrg
+region: highlighted
+weight: 60
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

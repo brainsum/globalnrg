@@ -1,0 +1,40 @@
+uuid: 6fb7ee1d-7cd1-48e5-b4b2-4aec63bc852d
+langcode: hu
+status: true
+dependencies:
+  module:
+    - cheeseburger_menu
+  theme:
+    - global_nrg
+id: global_nrg_hamburger_menu
+theme: global_nrg
+region: main_navigation
+weight: -5
+provider: null
+plugin: cheesebuger_menu_block
+settings:
+  id: cheesebuger_menu_block
+  label: 'Hamburger menu'
+  provider: cheeseburger_menu
+  label_display: '0'
+  breakpoint_all: true
+  menus_appear:
+    main: 1
+  menus_weight:
+    main: '0'
+  menus_title:
+    main: false
+  taxonomy_appear: {  }
+  taxonomy_weight: {  }
+  taxonomy_title: {  }
+  phone_appear: 0
+  phone_weight: '0'
+  phone_store: '0'
+  phone_number: ''
+  lang_switcher: 0
+  lang_switcher_weight: '0'
+  css_default: 1
+  headerHeight: '100'
+  headerPadding: null
+  breakpoints: {  }
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: da85128b-bf47-4e18-8854-2248d71722d0
+langcode: hu
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - global_nrg
+_core:
+  default_config_hash: 32P1o_YHecHsgAQuN019rNAZ1xrWwYTqhFO0k_EG_qE
+id: global_nrg_site_branding
+theme: global_nrg
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }
