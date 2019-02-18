@@ -304,7 +304,7 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: Block
+    display_title: Blokk
     position: 1
     display_options:
       display_extenders: {  }
