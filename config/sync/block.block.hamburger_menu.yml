@@ -5,9 +5,9 @@ dependencies:
   module:
     - cheeseburger_menu
   theme:
-    - showcase_lite
+    - global_nrg
 id: hamburger_menu
-theme: showcase_lite
+theme: global_nrg
 region: slideout
 weight: -4
 provider: null
