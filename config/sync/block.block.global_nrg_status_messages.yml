@@ -11,7 +11,7 @@ _core:
 id: global_nrg_status_messages
 theme: global_nrg
 region: highlighted
-weight: 60
+weight: -6
 provider: null
 plugin: system_messages_block
 settings:
