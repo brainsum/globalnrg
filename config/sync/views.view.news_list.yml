@@ -11,7 +11,7 @@ dependencies:
 _core:
   default_config_hash: ezK5Dw8P_4bqJdDQIiecSAJak9p1Wf1yDwHzTutGFuQ
 id: news_list
-label: 'List of news'
+label: 'Híreink listája'
 module: node
 description: ''
 tag: ''
@@ -38,19 +38,19 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'Currently we have no news recently.'
+          content: 'Jelenleg nincsenek friss híreink.'
           label: ''
           plugin_id: text_custom
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Alkalmaz
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Visszaállít
+          exposed_sorts_label: Rendezés
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Növekvő
+          sort_desc_label: Csökkenő
       filters:
         status:
           expose:
@@ -152,17 +152,17 @@ display:
           total_pages: 0
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Elemek oldalanként'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Mind -'
             offset: false
-            offset_label: Offset
+            offset_label: Eltolás
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
+            previous: '‹ Előző'
+            next: 'Következő ›'
+            first: '« Első'
+            last: 'Utolsó »'
           quantity: 9
       query:
         type: views_query
@@ -213,7 +213,7 @@ display:
           row_class: ''
           default_row_class: false
           uses_fields: false
-      title: 'Our recent news'
+      title: 'Legfrisebb híreink'
       header: {  }
       footer: {  }
       relationships: {  }
@@ -221,7 +221,7 @@ display:
       arguments: {  }
       display_extenders: {  }
     display_plugin: default
-    display_title: Master
+    display_title: Mester
     id: default
     position: 0
     cache_metadata:
@@ -238,16 +238,16 @@ display:
       display_extenders: {  }
       menu:
         type: normal
-        title: News
+        title: Hírek
         description: ''
         expanded: false
         parent: ''
-        weight: 5
+        weight: 2
         context: '0'
         menu_name: main
       display_description: ''
     display_plugin: page
-    display_title: Page
+    display_title: Oldal
     id: page_1
     position: 1
     cache_metadata:

@@ -40,7 +40,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Alkalmaz
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -55,8 +55,8 @@ display:
           id: 0
           total_pages: null
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
+            previous: '‹ Előző'
+            next: 'Következő ›'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
