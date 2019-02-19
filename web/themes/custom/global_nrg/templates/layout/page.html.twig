@@ -189,18 +189,6 @@
     </div>
   </div>
 
-  {% if page.footer %}
-    <div id="footer-block">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            {{ page.footer }}
-          </div>
-        </div>
-      </div>
-    </div>
-  {% endif %}
-
   {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
     <div id="bottom">
       <div class="container">
@@ -233,7 +221,19 @@
   <footer id="colophon" class="site-footer" role="contentinfo">
     <div class="container">
       <div class="row">
-        <div class="fcred col-sm-12"></div>
+        <div class="fcred col-sm-12">
+          {% if page.footer %}
+            <div id="footer-block">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    {{ page.footer }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+        </div>
       </div>
     </div>
   </footer>
