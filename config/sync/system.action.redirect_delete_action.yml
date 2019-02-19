@@ -1,0 +1,16 @@
+uuid: 80fec8c2-08c3-40a9-a441-9d2b4267ea0b
+langcode: hu
+status: true
+dependencies:
+  enforced:
+    module:
+      - redirect
+  module:
+    - redirect
+_core:
+  default_config_hash: vcnRZRvBqTbK3nZ2M4_lKPlEGc8GjPzgaqapYUfyX8M
+id: redirect_delete_action
+label: 'Átirányítás törlése'
+type: redirect
+plugin: redirect_delete_action
+configuration: {  }
