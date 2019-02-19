@@ -1,0 +1,25 @@
+uuid: 76b9504d-f8f7-4568-89e4-1cda9686a0ea
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:custom_block_type:c7d5042c-f0c0-4fa2-ab88-63159a565648'
+  module:
+    - block_content
+  theme:
+    - global_nrg
+id: contacts_in_footer
+theme: global_nrg
+region: footer_fourth
+weight: -5
+provider: null
+plugin: 'block_content:c7d5042c-f0c0-4fa2-ab88-63159a565648'
+settings:
+  id: 'block_content:c7d5042c-f0c0-4fa2-ab88-63159a565648'
+  label: 'Elérhetőségek láblécben'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
