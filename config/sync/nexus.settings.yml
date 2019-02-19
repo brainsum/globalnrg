@@ -4,7 +4,7 @@ features:
   comment_user_verification: true
   favicon: true
 logo:
-  use_default: false
+  use_default: true
   path: 'public://global-nrg-logo.svg'
 favicon:
   use_default: false
@@ -25,8 +25,8 @@ _core:
   default_config_hash: zspC3IWx3gB7P08cyRQxXDFS-z8yLO9-4ziiOPrjkNI
 langcode: hu
 slide1_image:
-  - '48'
+  - '58'
 slide2_image:
-  - '50'
+  - '61'
 slide3_image:
-  - '51'
+  - '62'
