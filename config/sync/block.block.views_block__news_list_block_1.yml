@@ -1,0 +1,30 @@
+uuid: 4ebf9c59-cc17-4df1-b5a7-eb29c056a175
+langcode: hu
+status: true
+dependencies:
+  config:
+    - views.view.news_list
+  module:
+    - system
+    - views
+  theme:
+    - global_nrg
+id: views_block__news_list_block_1
+theme: global_nrg
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:news_list-block_1'
+settings:
+  id: 'views_block:news_list-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

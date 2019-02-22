@@ -21,8 +21,6 @@ display:
           tags:
             previous: '‹ Anterior'
             next: 'Următor ›'
-            first: '« Primul'
-            last: 'Ultimul »'
       title: 'Știrile noastre recente'
     display_title: Maestru
   page_1:

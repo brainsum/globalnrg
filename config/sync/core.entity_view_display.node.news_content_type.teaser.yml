@@ -1,12 +1,16 @@
 uuid: 4443fdf1-985e-49d2-bf75-0c2463150ed4
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.news_content_type.body
+    - field.field.node.news_content_type.field_file
+    - field.field.node.news_content_type.field_image
+    - image.style.thumbnail
     - node.type.news_content_type
   module:
+    - photoswipe
     - text
     - user
 id: node.news_content_type.teaser
@@ -15,19 +19,28 @@ bundle: news_content_type
 mode: teaser
 content:
   body:
-    label: hidden
+    label: visually_hidden
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 2
     settings:
       trim_length: 600
     third_party_settings: {  }
     region: content
-  links:
-    weight: 100
-    settings: {  }
-    third_party_settings: {  }
+  field_image:
+    type: photoswipe_field_formatter
+    weight: 1
     region: content
+    label: visually_hidden
+    settings:
+      photoswipe_node_style_first: thumbnail
+      photoswipe_node_style: hide
+      photoswipe_image_style: ''
+      photoswipe_caption: title
+      photoswipe_caption_custom: ''
+      photoswipe_view_mode: teaser
+      photoswipe_reference_image_field: ''
+    third_party_settings: {  }
 hidden:
   field_file: true
-  field_image: true
   langcode: true
+  links: true

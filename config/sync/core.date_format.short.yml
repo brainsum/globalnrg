@@ -7,4 +7,4 @@ _core:
 id: short
 label: 'Alapértelmezett rövid dátum'
 locked: false
-pattern: 'Y. m. d. - H:i'
+pattern: 'Y. F j.'

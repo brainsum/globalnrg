@@ -21,8 +21,6 @@ display:
           tags:
             previous: '‹ Előző'
             next: 'Következő ›'
-            first: '« Első'
-            last: 'Utolsó »'
       title: 'Legfrisebb híreink'
     display_title: Mester
   page_1:

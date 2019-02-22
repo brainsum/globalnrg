@@ -8,9 +8,9 @@ dependencies:
 _core:
   default_config_hash: BmeDSOTSaTVy5QLgxgJ5ye_ZseG5t88JXRP1apFoBkk
 id: block_content
-label: 'Custom block library'
+label: 'Egyéni blokkok könyvtára'
 module: views
-description: 'Find and manage custom blocks.'
+description: 'Egyéni blokkok keresése és kezelése.'
 tag: default
 base_table: block_content_field_data
 base_field: id
@@ -19,7 +19,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: Mester
     position: 0
     display_options:
       access:
@@ -42,11 +42,11 @@ display:
         options:
           submit_button: Alkalmaz
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Alaphelyzet
+          exposed_sorts_label: Rendezés
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Növekvő
+          sort_desc_label: Csökkenő
       pager:
         type: mini
         options:
@@ -59,12 +59,12 @@ display:
             next: 'Következő ›'
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Elemek száma oldalanként'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Mind -'
             offset: false
-            offset_label: Offset
+            offset_label: Eltolás
       style:
         type: table
         options:
@@ -122,7 +122,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Block description'
+          label: 'Blokk leírása'
           exclude: false
           alter:
             alter_text: false
@@ -187,7 +187,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Block type'
+          label: Blokktípus
           exclude: false
           alter:
             alter_text: false
@@ -252,7 +252,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Updated
+          label: Frissítve
           exclude: false
           alter:
             alter_text: false
@@ -308,7 +308,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Operations
+          label: Műveletek
           exclude: false
           alter:
             alter_text: false
@@ -366,7 +366,7 @@ display:
           exposed: true
           expose:
             operator_id: info_op
-            label: 'Block description'
+            label: 'Blokk leírása'
             description: ''
             use_operator: false
             operator: info_op
@@ -406,7 +406,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: 'Block type'
+            label: Blokktípus
             description: ''
             use_operator: false
             operator: type_op
@@ -473,7 +473,7 @@ display:
           entity_field: reusable
           plugin_id: boolean
       sorts: {  }
-      title: 'Custom block library'
+      title: 'Egyéni blokkok könyvtára'
       header: {  }
       footer: {  }
       empty:
@@ -486,7 +486,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'There are no custom blocks available.'
+          content: 'Nem érhetőek el egyéni blokkok.'
           plugin_id: text_custom
         block_content_listing_empty:
           admin_label: ''
@@ -514,14 +514,14 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: Page
+    display_title: Oldal
     position: 1
     display_options:
       display_extenders: {  }
       path: admin/structure/block/block-content
       menu:
         type: tab
-        title: 'Custom block library'
+        title: 'Egyéni blokkok könyvtára'
         description: ''
         parent: block.admin_display
         weight: 0

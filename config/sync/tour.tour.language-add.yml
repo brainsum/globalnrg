@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: PM2qJqRak_LRDoD905MdombBZUvJvM4ID29VbjtYcZA
 id: language-add
-label: 'Adding languages'
+label: 'Nyelvek hozzáadása'
 module: language
 routes:
   -
@@ -16,20 +16,20 @@ tips:
   language-add-overview:
     id: language-add-overview
     plugin: text
-    label: 'Adding languages'
-    body: '<p>This page provides the ability to add common languages to your site.</p><p>If the desired language is not available, you can add a custom language.</p>'
+    label: 'Nyelvek hozzáadása'
+    body: '<p>Ez az oldal lehetőséget nyújt, hogy gyakori nyelveket lehessen hozzáadni a webhelyhez.</p><p>Ha a kívánt nyelv nem áll rendelkezésre, akkor felvehető egyéni nyelv.</p>'
     weight: 1
   language-add-choose:
     id: language-add-choose
     plugin: text
-    label: 'Select language'
-    body: '<p>Choose a language from the list, or choose "Custom language..." at the end of the list.</p><p>Click the "Add language" button when you are done choosing your language.</p><p>When adding a custom language, you will get an additional form where you can provide the name, code, and direction of the language.</p>'
+    label: 'Nyelv kiválasztása'
+    body: '<p>Lehet választani egy nyelvet a listából vagy a lista alján lévő „Egyéni nyelv...”-et.</p><p>A nyelv kiválasztása után a „Nyelv hozzáadása” gombra kell kattintani.</p><p>Egyéni nyelv hozzáadásakor egy további űrlapon lehet megadni a nyelv nevét, kódját és irányát.'
     weight: 2
     attributes:
       data-id: edit-predefined-langcode
   language-add-continue:
     id: language-add-continue
     plugin: text
-    label: 'Continuing on'
-    body: '<p>Now that you have an overview of the "Add languages" feature, you can continue by:<ul><li>Adding a language</li><li>Adding a custom language</li><li><a href="[site:url]admin/config/regional/language">Viewing configured languages</a></li></ul></p>'
+    label: Folytatás
+    body: '<p>Most, a „Nyelv hozzáadása” oldal áttekintése után a következőkkel lehet folytatni:<ul><li>Egy nyelv hozzáadása</li><li>Egy egyéni nyelv hozzáadása</li><li><a href="[site:url]admin/config/regional/language">Beállított nyelvek áttekintése</a></li></ul></p>'
     weight: 3

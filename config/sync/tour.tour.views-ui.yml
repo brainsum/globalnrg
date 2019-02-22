@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: c-HMyZwgeP8H6AITDcq4hznePkd7azpe8xl_WTnx2O0
 id: views-ui
-label: 'View edit page'
+label: 'Nézet szerkesztési oldal'
 module: views_ui
 routes:
   -
@@ -18,22 +18,22 @@ tips:
   views-main:
     id: views-main
     plugin: text
-    label: 'Manage view settings'
-    body: 'View or edit the configuration.'
+    label: 'Nézetbeállítások kezelése.'
+    body: 'Beállítások áttekintése vagy szerkesztése.'
     weight: 1
   views-ui-displays:
     id: views-ui-displays
     plugin: text
-    label: 'Displays in this view'
-    body: 'A display is a way of outputting the results, e.g., as a page or a block. A view can contain multiple displays, which are listed here. The active display is highlighted.'
+    label: 'Megjelenítések ebben a nézetben'
+    body: 'A megjelenítés az eredmények kiírásának egy módja, pl. oldal vagy blokk. Egy nézet több megjelenítést tartalmazhat, amik itt vannak felsorolva. Az aktív megjelenítés kiemelve látható.'
     weight: 2
     attributes:
       data-id: views-display-top
   views-ui-view-admin:
     id: views-ui-view-admin
     plugin: text
-    label: 'View administration'
-    body: 'Perform administrative tasks, including adding a description and creating a clone. Click the drop-down button to view the available options.'
+    label: 'Nézet adminisztráció'
+    body: 'Olyan adminisztrációs feladatok végrehajtása mint például leírás hozzáadása a nézethez, vagy annak leklónozása. A legnyíló gombra kattintva lehet megnézni a rendelkezésre álló lehetőségeket.'
     weight: 3
     location: left
     attributes:
@@ -41,56 +41,56 @@ tips:
   views-ui-format:
     id: views-ui-format
     plugin: text
-    label: 'Output format'
-    body: 'Choose how to output results. E.g., choose <em>Content</em> to output each item completely, using your configured display settings. Or choose <em>Fields</em>, which allows you to output only specific fields for each result. Additional formats can be added by installing modules to <em>extend</em> Drupal''s base functionality.'
+    label: 'Kimenet formája'
+    body: 'Kiválasztható az eredmények kiírási módja. Pl. a <em>Tartalom</em> lehetőség kiválasztásával minden elem teljesen kiíratható a megadott megjelenítési beállításokkal. A <em>Mezők</em> lehetőség kiválasztásával minden eredményhez csak bizonyos mezők lesznek kiírva. További formátumok is felvehetők a Drupal alapfunkcióinak modulok telepítésével történő <em>bővítésével</em>.'
     weight: 4
     attributes:
       data-class: views-ui-display-tab-bucket.format
   views-ui-fields:
     id: views-ui-fields
     plugin: text
-    label: Fields
-    body: 'If this view uses fields, they are listed here. You can click on a field to configure it.'
+    label: Mezők
+    body: 'Ha a nézet használ mezőket, itt kerülnek listázásra. A mezőre kattintva konfigurálható.'
     weight: 5
     attributes:
       data-class: views-ui-display-tab-bucket.field
   views-ui-filter:
     id: views-ui-filter
     plugin: text
-    label: 'Filter your view'
-    body: 'Add filters to limit the results in the output. E.g., to only show content that is <em>published</em>, you would add a filter for <em>Published</em> and select <em>Yes</em>.'
+    label: 'A nézet szűrése'
+    body: 'Szűrők hozzáadásával szűkíthetők a kimenet eredményei. Pl. csak a <em>közzétett</em> tartalom megjelenítéséhez <em>Közzétett</em> szűrőt kell felvenni, és az <em>Igen</em> lehetőséget kell kiválasztani.'
     weight: 6
     attributes:
       data-class: views-ui-display-tab-bucket.filter
   views-ui-filter-operations:
     id: views-ui-filter-operations
     plugin: text
-    label: 'Filter actions'
-    body: 'Add, rearrange or remove filters.'
+    label: Szűrőműveletek
+    body: 'Szűrők hozzáadása, átrendezése vagy törlése.'
     weight: 7
     attributes:
       data-class: 'views-ui-display-tab-bucket.filter .dropbutton-widget'
   views-ui-sorts:
     id: views-ui-sorts
     plugin: text
-    label: 'Sort Criteria'
-    body: 'Control the order in which the results are output. Click on an active sort rule to configure it.'
+    label: 'Rendezési jellemzők'
+    body: 'Az eredmények megjelenítési sorrendjének kezelése. Egy aktív sorbarendezési szabályra kattintva szerkeszthető.'
     weight: 8
     attributes:
       data-class: views-ui-display-tab-bucket.sort
   views-ui-sorts-operations:
     id: views-ui-sorts-operations
     plugin: text
-    label: 'Sort actions'
-    body: 'Add, rearrange or remove sorting rules.'
+    label: 'Sorbarendezési műveletek'
+    body: 'Rendezési szabályok hozzáadása, átrendezése vagy eltávolítása.'
     weight: 9
     attributes:
       data-class: 'views-ui-display-tab-bucket.sort .dropbutton-widget'
   views-ui-preview:
     id: views-ui-preview
     plugin: text
-    label: Preview
-    body: 'Show a preview of the view output.'
+    label: Előnézet
+    body: 'Előnézet mutatása a nézet kimenetéről.'
     weight: 10
     location: left
     attributes:

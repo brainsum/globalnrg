@@ -1,0 +1,23 @@
+label: 'Our recent news'
+description: 'Listing the "News" content type as a standalone page and as a block.'
+display:
+  default:
+    display_options:
+      title: 'Our recent news'
+      pager:
+        options:
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
+          expose:
+            items_per_page_label: 'Items per page'
+            items_per_page_options_all_label: '- All -'
+            offset_label: Offset
+    display_title: Master
+  block_1:
+    display_title: Block
+  page_1:
+    display_options:
+      menu:
+        title: News
+    display_title: Page

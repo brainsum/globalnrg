@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.rss
-    - core.entity_view_mode.node.teaser
   module:
     - node
     - user
@@ -68,11 +67,11 @@ display:
         options:
           submit_button: Alkalmaz
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Alaphelyzet
+          exposed_sorts_label: Rendezés
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Növekvő
+          sort_desc_label: Csökkenő
       filters:
         promote:
           admin_label: ''
@@ -172,12 +171,12 @@ display:
           total_pages: 0
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Elemek száma oldalanként'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Mind -'
             offset: false
-            offset_label: Offset
+            offset_label: Eltolás
           tags:
             previous: '‹ Előző'
             next: 'Következő ›'
@@ -195,7 +194,8 @@ display:
       row:
         type: 'entity:node'
         options:
-          view_mode: teaser
+          relationship: none
+          view_mode: default
       sorts:
         sticky:
           admin_label: ''
@@ -234,14 +234,19 @@ display:
           default_row_class: true
           uses_fields: false
       title: ''
-      header: {  }
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          plugin_id: text
       footer: {  }
       relationships: {  }
       fields: {  }
       arguments: {  }
       display_extenders: {  }
     display_plugin: default
-    display_title: Master
+    display_title: Mester
     id: default
     position: 0
     cache_metadata:
@@ -291,8 +296,13 @@ display:
     display_options:
       path: node
       display_extenders: {  }
+      header: {  }
+      defaults:
+        header: false
+        title: false
+      title: ' Global NRG, az Ön gázkereskedője'
     display_plugin: page
-    display_title: Page
+    display_title: Oldal
     id: page_1
     position: 1
     cache_metadata:

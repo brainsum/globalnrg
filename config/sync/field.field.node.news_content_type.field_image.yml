@@ -18,7 +18,7 @@ id: node.news_content_type.field_image
 field_name: field_image
 entity_type: node
 bundle: news_content_type
-label: ':'
+label: Képgaléria
 description: ''
 required: false
 translatable: true

@@ -8,8 +8,8 @@ _core:
   default_config_hash: WP75ZQbROrW2UhKukrbjizRFzKkjtpVYs1DWS8bL8oA
 id: global_nrg_local_tasks
 theme: global_nrg
-region: help
-weight: 30
+region: content_top
+weight: -5
 provider: null
 plugin: local_tasks_block
 settings:

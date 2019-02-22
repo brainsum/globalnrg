@@ -35,7 +35,7 @@ content:
     region: content
   field_image:
     weight: 0
-    label: inline
+    label: visually_hidden
     settings:
       photoswipe_node_style_first: thumbnail
       photoswipe_node_style: hide

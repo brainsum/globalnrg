@@ -9,8 +9,8 @@ favicon:
   use_default: 1
 show_breadcrumbs: 1
 slideshow_display: 1
-slide1_head: 'Global NRG, az Ön gázkereskedője'
-slide1_desc: 'Földgáz energetikai, ipari és kommunális gázfogyasztói valamint kereskedő partnereink részére a gáz magyar vagy külföldi mérőpontra történő eladásán kívűl tanácsadási, optimalizálási, nominálási, kockázatkezelési termékekkel és szolgáltatásokkal álllunk rendelkezésre.'
+slide1_head: ''
+slide1_desc: ''
 slide1_url: ''
 slide1_image:
   - '58'
