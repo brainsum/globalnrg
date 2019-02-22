@@ -215,6 +215,7 @@ td{
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
   clear: both;
+  line-height: 1em;
 }
 
 h1 { font-size: 32px; }
@@ -426,10 +427,6 @@ h1#site-title a:link, h1#site-title a:visited{
   padding-bottom: 20px;
 }
 
-#main-content {
-  padding-top: 15px;
-}
-
 /* Slider */
 
 #slidebox{
@@ -494,16 +491,18 @@ a.frmore{
 
 #preface-area {
   background: none repeat scroll 0 0 #60a4db;
-  border-bottom: 5px solid #383779;
-  border-top: 5px solid #383779;
   padding: 40px 0 20px;
 }
 
-.preface-block{
+.preface-block {
   color: #fff;
   text-align: center;
 }
 
+.preface-block h1 {
+  color: #fff;
+  text-align: center;
+}
 
 .preface-block .block > h2{
   font-size: 24px;
@@ -515,13 +514,13 @@ a.frmore{
 }
 
 
-#bottom{
+#bottom {
   padding: 20px 0px 40px 0px;
   background: #3b3b3b;
   border-top: 5px solid #60a4db;
 }
 
-.footer-block{
+.footer-block {
   color: #aaa;
 }
 
@@ -557,7 +556,6 @@ a.frmore{
   color: #000000;
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 20px;
   margin-top: 10px;
 }
 
@@ -1210,6 +1208,53 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
     content: "»";
 }
 
+/**
+ * Minor CSS customization.
+ */
+#preface-area h1 {
+  color: #fff;
+}
+
+aside#sidebar {
+  background-color: #eee;
+}
+
+h2 {
+	padding: 0.25em 0em 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	left: -0.1em;
+}
+
+#block-views-block-news-list-block-1 .views-row {
+	display: block;
+	clear: both;
+	border-top: dotted 10px #def;
+	margin-top: 5em;
+	padding-top: 2em;
+}
+
+#block-views-block-news-list-block-1 .views-row:first-of-type {
+  border-top: none;
+  margin-top: 0em;
+}
+
+#sidebar .views-field.views-field-created {
+	display: block;
+	margin-bottom: 1em;
+	position: relative;
+	/* top: -0.5em; */
+}
+
+#sidebar .views-field.views-field-field-image.photoswipe-gallery {
+	float: left;
+	margin: 0.5em 1em 0em 0em;
+}
+
+/*-------------------------------------------*
+/* Breakpoints
+/*-------------------------------------------*/
 @media (max-width: 992px) {
   .flex-caption {
     top: 50%;
