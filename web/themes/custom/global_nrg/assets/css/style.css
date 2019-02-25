@@ -213,9 +213,8 @@ td{
 ================================================== */
 
 /* Headings */
-h1,h2,h3,h4,h5,h6 {
+h1,,h3,h4,h5,h6 {
   clear: both;
-  line-height: 1em;
 }
 
 h1 { font-size: 32px; }
@@ -491,12 +490,7 @@ a.frmore{
 
 #preface-area {
   background: none repeat scroll 0 0 #60a4db;
-  padding: 40px 0 20px;
-}
-
-.preface-block {
-  color: #fff;
-  text-align: center;
+  padding: 2em 0 2.5em;
 }
 
 .preface-block h1 {
@@ -1209,14 +1203,43 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 }
 
 /**
- * Minor CSS customization.
+ * Global NRG CSS customization of the Nexus contrib theme.
  */
+
+ #main-content {
+   min-height: 30em;
+ }
+
 #preface-area h1 {
   color: #fff;
 }
 
+/**
+* Customizing page regions a bit.
+*/
+
+.mainmenu, #logo {
+  width: unset;
+}
+
+.mainmenu {
+  float: right;
+}
+
+.footer-block.col-sm-6 {
+	width: unset;
+}
+
+.footer-block.col-sm-6:last-of-type {
+	float: right;
+}
+
+/**
+ * Sidebar is used only on the front page for news listing.
+ */
+
 aside#sidebar {
-  background-color: #eee;
+  background-color: #def;
 }
 
 h2 {
@@ -1227,10 +1250,14 @@ h2 {
 	left: -0.1em;
 }
 
+aside#sidebar h2 {
+  line-height: 1em;
+}
+
 #block-views-block-news-list-block-1 .views-row {
 	display: block;
 	clear: both;
-	border-top: dotted 10px #def;
+	border-top: dotted 10px #fff;
 	margin-top: 5em;
 	padding-top: 2em;
 }
@@ -1240,16 +1267,41 @@ h2 {
   margin-top: 0em;
 }
 
-#sidebar .views-field.views-field-created {
+#sidebar .views-field.views-field-created,
+.views-row .views-field.views-field-created {
 	display: block;
 	margin-bottom: 1em;
-	position: relative;
-	/* top: -0.5em; */
 }
 
 #sidebar .views-field.views-field-field-image.photoswipe-gallery {
 	float: left;
 	margin: 0.5em 1em 0em 0em;
+}
+
+/**
+ * Now the same (or similar) sytle for news listing as a page on /news
+ */
+
+#content .news-listing .views-row {
+	border-top: dotted 5px #def;
+	margin-top: 3em;
+	padding-top: 2em;
+  clear: both;
+}
+
+#content .news-listing .views-row:first-of-type {
+  border-top: none;
+  padding-top: 0em;
+  margin-top: 0em;
+}
+
+.views-field.views-field-title h2 {
+  padding-bottom: 0;
+}
+
+.views-field.views-field-field-image.photoswipe-gallery .field-content * {
+  float: left;
+  margin: 0em 1em 1em 0em;
 }
 
 /*-------------------------------------------*
@@ -1292,11 +1344,6 @@ h2 {
   #main-menu{
     display:none;
   }
-
-  /*.flex-caption{
-    display: none;
-  }*/
-
 }
 
 @media (max-width: 640px) {
