@@ -32,7 +32,7 @@ settings:
   phone_store: '0'
   phone_number: ''
   lang_switcher: 1
-  lang_switcher_weight: '0'
+  lang_switcher_weight: '1'
   css_default: 1
   headerHeight: '100'
   headerPadding: null

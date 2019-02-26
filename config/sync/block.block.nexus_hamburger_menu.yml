@@ -21,7 +21,7 @@ settings:
   menus_appear:
     main: 1
   menus_weight:
-    main: '0'
+    main: '2'
   menus_title:
     main: false
   taxonomy_appear: {  }
@@ -31,8 +31,8 @@ settings:
   phone_weight: '0'
   phone_store: '0'
   phone_number: ''
-  lang_switcher: 0
-  lang_switcher_weight: '0'
+  lang_switcher: 1
+  lang_switcher_weight: '1'
   css_default: 1
   headerHeight: '100'
   headerPadding: null

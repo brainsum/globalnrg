@@ -28,3 +28,8 @@ display:
       menu:
         title: Știri
     display_title: Pagini
+  block_1:
+    display_title: Bloc
+    display_options:
+      title: '<a href="/news">Știrile noastre recente</a>'
+description: ''
