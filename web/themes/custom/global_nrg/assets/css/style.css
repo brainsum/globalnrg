@@ -68,21 +68,10 @@ a:active {
   text-decoration: none;
 }
 
-/**
- * Customize link color on dark backgrounded areas
- */
-#block-contacts-in-footer a,
-#block-main-navigation a,
-.slicknav_menu a {
-  color: #eee;
-}
-
-
 /*set max img width*/
 img {
   max-width: 100%;
 }
-
 
 /* Commons
 ================================================== */
@@ -1188,7 +1177,7 @@ nav#block-global-nrg-main-navigation {
   border-left: dotted 1px #ccc;
 }
 
-#block-language-switcher-top .links li.is-active a {
+#main-menu li .is-active {
   color: #000;
   font-weight: bold;
 }
@@ -1304,6 +1293,20 @@ h2 {
   background: none;
   margin: 0px;
   padding: 0px;
+}
+
+/**
+ * Customize link color on dark backgrounded areas
+ */
+
+#block-contacts-in-footer {
+  float:right;
+}
+
+#block-contacts-in-footer a,
+#block-main-navigation a,
+.slicknav_menu a {
+  color: #eee;
 }
 
 /*-------------------------------------------*
