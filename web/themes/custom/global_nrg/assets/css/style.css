@@ -549,7 +549,7 @@ a.frmore{
 .node h2.title a, h1.page-title {
   color: #000000;
   font-size: 36px;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-top: 10px;
 }
 
@@ -842,68 +842,18 @@ ol.search-results { padding-left: 0; }
   background: none;
 }
 
-.links li a {
+/* .links li a {
   background-color: #E7E5E3;
   color: #100100;
   padding: 4px 5px;
   border-radius: 4px;
   text-shadow: 1px 1px #fff;
   font-weight: normal;
-}
+} */
 
 .links li a:hover {
   background-color: #D7D5D3;
   color: #100101;
-}
-
-/**
- * Customize link color on dark backgrounded areas
- */
-.footer-block ul,
-.footer-block .links {
-  margin: 0px 0px 2em;
-  padding: 0px;
-}
-.footer-block ul li,
-.footer-block .links li {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-.footer-block ul li a,
-.footer-block .links li a {
-  background: none;
-  margin: 0px;
-  padding: 0px;
-}
-/**
- * Styling language switcher in the footer
- */
-#block-language-switcher .links li {
-  display: inline-block;
-  margin: 0em 1em;
-}
-#block-language-switcher .links li a {
-  text-shadow: none;
-  color: #eee;
-  border-radius: inherit;
-  padding: 0em 1em 0.5em;
-}
-#block-language-switcher .links li.is-active a {
-  border-bottom: dotted 1px white;
-}
-#block-language-switcher .links li:last-of-type,
-#block-language-switcher .links li:last-of-type a {
-  margin-right: 0em;
-  padding-right: 0em;
-}
-#block-language-switcher .links li:first-of-type,
-#block-language-switcher .links li:first-of-type a {
-  padding-left: 0em;
-  margin-left: 0em;
-}
-#block-language-switcher .links li.is-active a {
-  padding: 0em 1em 0.5em;
 }
 
 /*-------------------------------------------*
@@ -1250,14 +1200,10 @@ h2 {
 	left: -0.1em;
 }
 
-aside#sidebar h2 {
-  line-height: 1em;
-}
-
 #block-views-block-news-list-block-1 .views-row {
 	display: block;
 	clear: both;
-	border-top: dotted 10px #fff;
+	border-top: dotted 2px #fff;
 	margin-top: 5em;
 	padding-top: 2em;
 }
@@ -1265,6 +1211,11 @@ aside#sidebar h2 {
 #block-views-block-news-list-block-1 .views-row:first-of-type {
   border-top: none;
   margin-top: 0em;
+  padding-top: 0em;
+}
+
+#block-views-block-news-list-block-1 .views-field-title {
+  margin-bottom: 0.5em;
 }
 
 #sidebar .views-field.views-field-created,
@@ -1279,11 +1230,11 @@ aside#sidebar h2 {
 }
 
 /**
- * Now the same (or similar) sytle for news listing as a page on /news
+ * Now the same (or similar) style for news listing as a page on /news page
  */
 
 #content .news-listing .views-row {
-	border-top: dotted 5px #def;
+	border-top: dotted 2px #def;
 	margin-top: 3em;
 	padding-top: 2em;
   clear: both;
@@ -1291,17 +1242,78 @@ aside#sidebar h2 {
 
 #content .news-listing .views-row:first-of-type {
   border-top: none;
-  padding-top: 0em;
   margin-top: 0em;
-}
-
-.views-field.views-field-title h2 {
-  padding-bottom: 0;
 }
 
 .views-field.views-field-field-image.photoswipe-gallery .field-content * {
   float: left;
   margin: 0em 1em 1em 0em;
+}
+
+#content .news-listing .views-row .views-field-body {
+  display: block;
+  clear: both;
+}
+
+
+
+/**
+ * Customize link color on dark backgrounded areas
+ */
+.footer-block ul,
+.footer-block .links {
+  margin: 0px 0px 2em;
+  padding: 0px;
+}
+.footer-block ul li,
+.footer-block .links li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.footer-block ul li a,
+.footer-block .links li a {
+  background: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/**
+ * Styling language switcher in the footer
+ */
+#block-language-switcher .links li {
+  display: inline-block;
+  margin: 0em 1em;
+}
+#block-language-switcher .links li a {
+  text-shadow: none;
+  color: #eee;
+  border-radius: inherit;
+  padding: 0em 1em 0.5em;
+}
+#block-language-switcher .links li.is-active a {
+  border-bottom: dotted 1px white;
+}
+#block-language-switcher .links li:last-of-type,
+#block-language-switcher .links li:last-of-type a {
+  margin-right: 0em;
+  padding-right: 0em;
+}
+#block-language-switcher .links li:first-of-type,
+#block-language-switcher .links li:first-of-type a {
+  padding-left: 0em;
+  margin-left: 0em;
+}
+#block-language-switcher .links li.is-active a {
+  padding: 0em 1em 0.5em;
+}
+
+#main-content #primary.content-area.col-sm-8 {
+  padding-right: 5em;
+}
+
+#primary article h2 {
+  padding: 1em 0em 0.3em;
 }
 
 /*-------------------------------------------*
