@@ -12,7 +12,7 @@ display:
         options:
           submit_button: Apply
           reset_button_label: Reset
-          exposed_sorts_label: Order by
+          exposed_sorts_label: 'Order by'
           sort_asc_label: Ascending
           sort_desc_label: Descending
       pager:

@@ -1162,7 +1162,7 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 }
 
 /**
- * Styling language switcher in the header
+ * Styling language switcher in the header on Desktop screen
  */
 
 #block-language-switcher-top,
@@ -1171,15 +1171,47 @@ nav#block-global-nrg-main-navigation {
  float: right;
 }
 
+#block-language-switcher-top {
+  margin-right: 2em;
+}
+
 #block-language-switcher-top ul {
   margin-left: 1em;
   padding-left: 1em;
   border-left: dotted 1px #ccc;
 }
 
-#main-menu li .is-active {
+#main-menu li a.is-active,
+#block-language-switcher-mobile ul li a.is-active {
   color: #000;
   font-weight: bold;
+}
+
+/**
+ * Styling language switcher in the header on Mobile screen
+ */
+
+#block-language-switcher-mobile {
+  display: none;
+  float: right;
+  margin: 0.75em 0 1em;
+}
+
+#block-language-switcher-mobile ul {
+  margin: 0;
+}
+
+#block-language-switcher-mobile ul li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+#block-language-switcher-mobile ul li:last-of-type {
+  margin-right: 0em;
+}
+
+#block-language-switcher-mobile ul li a {
+  color: #777;
 }
 
 /**
@@ -1192,7 +1224,7 @@ nav#block-global-nrg-main-navigation {
 
 .mainmenu {
   float: right;
-  width: 75%;
+  /* width: 75%; */
 }
 
 .footer-block.col-sm-6 {
@@ -1212,7 +1244,7 @@ aside#sidebar {
 }
 
 h2 {
-	padding: 0.25em 0em 1em;
+	padding: 1em 0em 1em;
 	font-weight: bold;
 	text-transform: uppercase;
 	position: relative;
@@ -1300,7 +1332,7 @@ h2 {
  */
 
 #block-contacts-in-footer {
-  float:right;
+  float: right;
 }
 
 #block-contacts-in-footer a,
@@ -1312,6 +1344,7 @@ h2 {
 /*-------------------------------------------*
 /* Breakpoints
 /*-------------------------------------------*/
+
 @media (max-width: 992px) {
   .flex-caption {
     top: 50%;
@@ -1346,8 +1379,8 @@ h2 {
     margin-bottom: 20px;
   }
 
-  #main-menu{
-    display:none;
+  #main-menu {
+    display: none;
   }
 }
 
@@ -1410,14 +1443,15 @@ h2 {
     padding: 0px 272px;
   }
 }
+
 @media (min-width: 500px) {
   .node--view-mode-teaser .field--type-image {
     float: left;
     margin: 0 20px 20px 0;
   }
-}
-.slicknav_menu {
-  display: none;
+  .slicknav_menu {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1426,6 +1460,11 @@ h2 {
     display: none;
   }
   .js .slicknav_menu {
+    display: block;
+  }
+
+  /* Global NRG customization */
+  #block-language-switcher-mobile {
     display: block;
   }
 }

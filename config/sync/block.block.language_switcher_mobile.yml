@@ -1,4 +1,4 @@
-uuid: efb201a9-514e-4b38-a21f-771c48bd50a2
+uuid: 9ef80f31-c152-4ee5-b80e-ae142be70380
 langcode: en
 status: true
 dependencies:
@@ -6,15 +6,15 @@ dependencies:
     - language
   theme:
     - global_nrg
-id: language_switcher_top
+id: language_switcher_mobile
 theme: global_nrg
-region: main_navigation
-weight: -4
+region: header
+weight: 0
 provider: null
 plugin: 'language_block:language_interface'
 settings:
   id: 'language_block:language_interface'
-  label: 'Language switcher (Desktop)'
+  label: 'Language switcher (Mobile)'
   provider: language
   label_display: '0'
 visibility: {  }
