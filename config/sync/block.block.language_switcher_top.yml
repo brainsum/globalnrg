@@ -9,7 +9,7 @@ dependencies:
 id: language_switcher_top
 theme: global_nrg
 region: main_navigation
-weight: -3
+weight: -4
 provider: null
 plugin: 'language_block:language_interface'
 settings:
