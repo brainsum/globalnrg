@@ -1,7 +1,10 @@
 label: 'Lista știrilor'
+description: ''
 display:
   default:
+    display_title: Maestru
     display_options:
+      title: 'Știrile noastre recente'
       empty:
         area_text_custom:
           content: 'În prezent nu avem știri recente.'
@@ -21,8 +24,6 @@ display:
           tags:
             previous: '‹ Anterior'
             next: 'Următor ›'
-      title: 'Știrile noastre recente'
-    display_title: Maestru
   page_1:
     display_options:
       menu:
@@ -32,4 +33,3 @@ display:
     display_title: Bloc
     display_options:
       title: '<a href="/news">Știrile noastre recente</a>'
-description: ''

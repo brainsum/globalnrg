@@ -2,22 +2,34 @@ label: 'Our recent news'
 description: 'Listing the "News" content type as a standalone page and as a block.'
 display:
   default:
+    display_title: Master
     display_options:
       title: 'Our recent news'
+      empty:
+        area_text_custom:
+          content: 'Currently we have no recent news.'
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: Order by
+          sort_asc_label: Ascending
+          sort_desc_label: Descending
       pager:
         options:
-          tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
           expose:
             items_per_page_label: 'Items per page'
             items_per_page_options_all_label: '- All -'
             offset_label: Offset
-    display_title: Master
-  block_1:
-    display_title: Block
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
   page_1:
     display_options:
       menu:
         title: News
     display_title: Page
+  block_1:
+    display_title: Block
+    display_options:
+      title: '<a href="/news">Our recent news</a>'

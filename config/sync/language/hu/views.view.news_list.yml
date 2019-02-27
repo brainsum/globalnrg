@@ -1,7 +1,10 @@
 label: 'Híreink listája'
+description: ''
 display:
   default:
+    display_title: Mester
     display_options:
+      title: 'Legfrissebb híreink'
       empty:
         area_text_custom:
           content: 'Jelenleg nincsenek friss híreink.'
@@ -21,10 +24,12 @@ display:
           tags:
             previous: '‹ Előző'
             next: 'Következő ›'
-      title: 'Legfrisebb híreink'
-    display_title: Mester
   page_1:
     display_title: Oldal
     display_options:
       menu:
         title: Hírek
+  block_1:
+    display_title: Blokk
+    display_options:
+      title: '<a href="/news">Legfrissebb híreink</a>'
