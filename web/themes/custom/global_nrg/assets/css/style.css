@@ -1281,7 +1281,7 @@ h2 {
 }
 
 /**
- * Now the same (or similar) style for news listing as a page on /news page
+ * Now the same (or similar) style for news listing as a page on /news URL path alias
  */
 
 #content .news-listing .views-row {
@@ -1296,9 +1296,17 @@ h2 {
   margin-top: 0em;
 }
 
-.views-field.views-field-field-image.photoswipe-gallery .field-content * {
+.views-field.views-field-field-image.photoswipe-gallery .field-content a {
   float: left;
-  margin: 0em 1em 1em 0em;
+  margin: 0em 7px 7px 0em;
+  width: 220px;
+  height: 220px;
+  text-align: center;
+}
+
+.views-field.views-field-field-image.photoswipe-gallery .field-content a:first-of-type {
+  width: unset;
+  height: unset;
 }
 
 #content .news-listing .views-row .views-field-body {
