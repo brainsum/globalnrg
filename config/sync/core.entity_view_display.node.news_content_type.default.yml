@@ -10,7 +10,6 @@ dependencies:
     - image.style.medium
     - node.type.news_content_type
   module:
-    - file
     - photoswipe
     - text
     - user
@@ -25,14 +24,6 @@ content:
     weight: 1
     settings: {  }
     third_party_settings: {  }
-    region: content
-  field_file:
-    weight: 2
-    label: visually_hidden
-    settings:
-      use_description_as_link_text: true
-    third_party_settings: {  }
-    type: file_default
     region: content
   field_image:
     weight: 0
@@ -49,5 +40,6 @@ content:
     type: photoswipe_field_formatter
     region: content
 hidden:
+  field_file: true
   langcode: true
   links: true
